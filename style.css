@@ -1,0 +1,151 @@
+/* Global Styles */
+html{
+    background-color: #f7f590;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #f7f590;
+    
+    padding: 0 0 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: -10px;
+    z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container img {
+    height: 300px;
+    width: auto;
+    margin-right: 100px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: -1pc;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fcf8f8;
+  }
+  
+  h1 {
+    margin: 50;
+    font-size: 2em;
+     text-align:center ;
+
+  }
+  .but{
+    text-align: center;
+  }
+  button {
+    background-color: #33cc66;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #28ad5a;
+  }
+  
+  /* Hero Section Styles */
+  #hero {
+    background-image: url('hero.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+  }
+  
+  #hero h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #hero p {
+    font-size: 1.2em;
+    color: green;
+    
+  }
+  
+  #hero button {
+    margin-top: 20px;
+
+  }
+  
+  /* Services Section Styles */
+  #services {
+    padding: 50px;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .service img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .service p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-top: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
